@@ -16,5 +16,17 @@ Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded.
 
 ## Models Included in the Benchmark
 
-The benchmark evaluates the performance of the following **nine** computational models: AlphaFold 3, HelixFold 3, RosettaFoldNA, DRFold, trRosetta, RhoFold+, NuFold, Chai and Boltz. HelixFold 3, Boltz, and Chai are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models).
+The benchmark evaluates the performance of the following **nine** computational models: 
+
+1) AlphaFold 3
+2) HelixFold 3
+3) RosettaFoldNA
+4) DRFold
+5) trRosetta
+6) RhoFold+
+7) NuFold
+8) Chai
+9) Boltz
+
+HelixFold 3, Boltz, and Chai are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models).
 
