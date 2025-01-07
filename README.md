@@ -36,6 +36,8 @@ The benchmark evaluates the performance of the following **nine** computational 
 
 HelixFold 3, Boltz, and Chai are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models).
 
+## Data
+
 ```
 RNA-Benchmark/
 ├── FASTA/
