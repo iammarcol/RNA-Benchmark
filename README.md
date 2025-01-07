@@ -36,3 +36,18 @@ The benchmark evaluates the performance of the following **nine** computational 
 
 HelixFold 3, Boltz, and Chai are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models).
 
+```
+RNA-Benchmark/
+├── FASTA/
+│   ├── single        # fasta sequences of single RNA
+│   ├── complex       # fasta sequences of RNA/RNA and RNA/Protein complexes
+├── PDB/
+│   ├── true_pdb.zip  # solved structures in pdb format downloaded from PDB
+├── PRED/
+│   ├── pred_pdb.zip  # predicted structures for both single RNA and complexes
+├── MSA/
+│   ├── msas.zip      # MSAs used to generate structures for both single RNA and complexes
+```
+
+
+
