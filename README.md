@@ -12,7 +12,19 @@ Structures were filtered using CD-HIT-EST to exclude those with more than 80% se
 
 **Nucleotide Content:**  
 
-Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded.
+Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded. Sequences that are shorter than 10 nt and contain same nucleotide type (80-100% of the same nucleotide in the sequence) are most likely linear and have no modular structure, are short and are therefore excluded from the benchmark datset. This was mostly the case with some RNA/Protein synthetic complexes.
+
+**MSA Generation:**
+
+Multiple sequence alignments (MSAs) for the analysis were generated using **rMSA** for RNA sequences and **MMseqs2** for protein sequences. The MSAs are provided in the default output formats of these tools: *.afa* for RNA and *.a3m* for proteins. Depending on the specific model requirements, MSAs were converted into alternative formats as needed. It is important to note that rMSA converts the 'U' nucleotide to 'T' in RNA sequence alignments.
+
+MSAs can be found at:
+'''
+cd MSA/RNA
+cd MSA/PROTEIN
+'''
+
+
 
 ## Models Included in the Benchmark
 
