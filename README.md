@@ -14,7 +14,7 @@ Structures were filtered using CD-HIT-EST to exclude those with more than 80% se
 
 Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded. Sequences that are shorter than 10 nt and contain same nucleotide type (80-100% of the same nucleotide in the sequence) are most likely linear and have no modular structure, are short and are therefore excluded from the benchmark datset. This was mostly the case with some RNA/Protein synthetic complexes.
 
-This filtering led to having a dataset of 
+This filtering led to having a dataset of 46 single RNA, 20 RNA/RNA and 44 RNA/Protein complexes.
 
 **MSA Generation:**
 
