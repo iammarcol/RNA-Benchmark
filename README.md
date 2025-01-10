@@ -34,7 +34,7 @@ The benchmark evaluates the performance of the following **nine** computational 
 8) Chai
 9) Boltz
 
-HelixFold 3, Boltz, and Chai are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models).
+HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (DRFold, NuFold, RhoFold+, trRosetta), while other are able to predict both monomeric and oligomeric RNAs. 
 
 ## Data
 
