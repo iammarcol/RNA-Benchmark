@@ -42,15 +42,19 @@ HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered 
 
 ```
 RNA-Benchmark/
-├── FASTA/
-│   ├── single        # fasta sequences of single RNA
-│   ├── complex       # fasta sequences of RNA/RNA and RNA/Protein complexes
-├── PDB/
-│   ├── true_pdb.zip  # solved structures in pdb format downloaded from PDB
+├── FASTA/                        # fasta sequences of single RNA, RNA/RNA and RNA/Protein complexes 
+│   ├── single        
+│   ├── complex       
+├── PDB/                          # solved structures in pdb format downloaded from PDB
+│   ├── true_pdb_complexes.zip 
+│   ├── true_pdb_single.zip 
 ├── PRED/
-│   ├── pred_pdb.zip  # predicted structures for both single RNA and complexes
+│   ├── pred_pdb_complexes.zip
+│   ├── pred_pdb_single.zip              # predicted structures for both single RNA and complexes
 ├── MSA/
-│   ├── msas.zip      # MSAs used to generate structures for both single RNA and complexes
+│   ├── msas.zip                  # MSAs used to generate structures for both single RNA and complexes
+├── meta/
+│   ├── benchmarking_metadata.zip # information about sequences used in the analysis
 ```
 
 
