@@ -14,7 +14,7 @@ Structures were filtered using CD-HIT-EST to exclude those with more than 80% se
 
 Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded. Sequences that are shorter than 10 nt and contain same nucleotide type (80-100% of the same nucleotide in the sequence) are most likely linear and have no modular structure, are short and are therefore excluded from the benchmark datset. This was mostly the case with some RNA/Protein synthetic complexes.
 
-This filtering led to having a dataset of 46 single RNA, 20 RNA/RNA and 44 RNA/Protein complexes.
+This filtering resulted in a dataset comprising 46 single RNA complexes, 16 RNA/RNA complexes, and 40 RNA/Protein complexes. (See benchmark_metadata.csv for more information)
 
 **MSA Generation:**
 
@@ -34,7 +34,9 @@ The benchmark evaluates the performance of the following **nine** computational 
 8) Chai
 9) Boltz
 
-HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (DRFold, NuFold, RhoFold+, trRosetta), while other are able to predict both monomeric and oligomeric RNAs. 
+HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (DRFold, NuFold, RhoFold+, trRosetta), while other are able to predict both monomeric and oligomeric RNAs, alone and in a complex with proteins.
+
+!! Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out of memory" issue, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. That reduced our benchmark dataset for RNA/RNA and RNA/Protein complexes from 56 to 43 examples.
 
 ## Data
 
