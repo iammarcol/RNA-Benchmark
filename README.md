@@ -14,7 +14,7 @@ Structures were filtered using CD-HIT-EST to exclude those with more than 80% se
 
 Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded. Sequences that are shorter than 10 nt and contain same nucleotide type (80-100% of the same nucleotide in the sequence) are most likely linear and have no modular structure, are short and are therefore excluded from the benchmark datset. This was mostly the case with some RNA/Protein synthetic complexes.
 
-❗This filtering resulted in a dataset comprising 46 single RNA complexes, 16 RNA/RNA complexes, and 40 RNA/Protein complexes. (See benchmark_metadata.csv for more information)
+❗This filtering resulted in a dataset comprising 50 single RNA (momnomeric RNA), 16 RNA/RNA complexes, and 40 RNA/Protein complexes. (See benchmark_metadata.csv for more information)
 
 **MSA Generation:**
 
@@ -27,12 +27,11 @@ The benchmark evaluates the performance of the following **nine** computational 
 1) AlphaFold 3
 2) HelixFold 3
 3) RosettaFoldNA
-4) DRFold
-5) trRosetta
-6) RhoFold+
-7) NuFold
-8) Chai
-9) Boltz
+4) trRosetta
+5) RhoFold+
+6) NuFold
+7) Chai
+8) Boltz
 
 HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (DRFold, NuFold, RhoFold+, trRosetta), while other are able to predict both monomeric and oligomeric RNAs, alone and in a complex with proteins.
 
