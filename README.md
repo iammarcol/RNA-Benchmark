@@ -14,7 +14,7 @@ Structures were filtered using CD-HIT-EST to exclude those with more than 80% se
 
 Structures containing ambiguous nucleotides, such as 'X' or 'N', were excluded. Sequences that are shorter than 10 nt and contain same nucleotide type (80-100% of the same nucleotide in the sequence) are most likely linear and have no modular structure, are short and are therefore excluded from the benchmark datset. This was mostly the case with some RNA/Protein synthetic complexes.
 
-❗This filtering resulted in a dataset comprising 50 single RNA (momnomeric RNA), 16 RNA/RNA complexes, and 40 RNA/Protein complexes. (See benchmark_metadata.csv for more information)
+❗This filtering resulted in a dataset comprising 50 single RNA (momnomeric RNA), 46 RNA complexes. (See meta.csv for more information)
 
 **MSA Generation:**
 
@@ -49,11 +49,10 @@ RNA-Benchmark/
 │   ├── true_pdb_single.zip 
 ├── PRED/
 │   ├── pred_pdb_complexes.zip
-│   ├── pred_pdb_single.zip              # predicted structures for both single RNA and complexes
+│   ├── pred_pdb_single.zip       # predicted structures for both single RNA and complexes
 ├── MSA/
 │   ├── msas.zip                  # MSAs used to generate structures for both single RNA and complexes
-├── meta/
-│   ├── benchmarking_metadata.zip # information about sequences used in the analysis
+├── meta.csv                      # information about sequences/structures used in the final analysis
 ```
 
 
