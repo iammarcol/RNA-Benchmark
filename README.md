@@ -44,12 +44,10 @@ RNA-Benchmark/
 ├── FASTA/                        # fasta sequences of single RNA, RNA/RNA and RNA/Protein complexes 
 │   ├── single        
 │   ├── complex       
-├── PDB/                          # solved structures in pdb format downloaded from PDB
-│   ├── true_pdb_complexes.zip 
+├── PDB/
+|   ├── pdb.zip                   # top-ranked predictions    
+│   ├── true_pdb_complexes.zip    # solved structures in pdb format downloaded from PDB
 │   ├── true_pdb_single.zip 
-├── PRED/
-│   ├── pred_pdb_complexes.zip
-│   ├── pred_pdb_single.zip       # predicted structures for both single RNA and complexes
 ├── MSA/
 │   ├── msas.zip                  # MSAs used to generate structures for both single RNA and complexes
 ├── meta.csv                      # information about sequences/structures used in the final analysis
