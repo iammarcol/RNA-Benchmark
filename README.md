@@ -48,6 +48,8 @@ RNA-Benchmark/
 │   ├── true_pdb_single.zip 
 ├── MSA/
 │   ├── msas.zip                  # MSAs used to generate structures for both single RNA and complexes
+├── OUTPUTS/                      # all CSV files of benchmarked data and scores
+├── scr/                          # code to generate all figures
 ├── meta.csv                      # information about sequences/structures used in the final analysis
 ```
 
