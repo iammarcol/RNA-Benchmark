@@ -55,6 +55,6 @@ RNA-Benchmark/
 
 ❗ To generate all the plots from the benchmark analysis, run:
 ```
-$ cd scr
-$ python scr/benchmark_analysis_run.py
+cd scr
+python scr/benchmark_analysis_run.py
 ```
