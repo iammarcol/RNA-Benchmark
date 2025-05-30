@@ -35,6 +35,8 @@ HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered 
 
 ❗Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out-of-memory" issues, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. This, along with filtering step resulted in a dataset comprising 50 single RNA (momnomeric RNA) and 46 RNA complexes. File **meta.csv** contains only those IDs that were used in the analysis, and should be used as reference.
 
+❗Note that we cannot distribute ground turth structures from CASP16 targets used in the analysis. All solved structures will be available at a certain time at https://predictioncenter.org/casp16/targetlist.cgi
+
 ## Data
 
 ```
@@ -53,4 +55,8 @@ RNA-Benchmark/
 ├── meta.csv                      # information about sequences/structures used in the final analysis
 ```
 
-❗ To generate all the plots from the benchmark analysis, run 
+❗ To generate all the plots from the benchmark analysis, run:
+'''
+cd ../scr
+python benchmark_analysis_run.py
+'''
