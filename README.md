@@ -55,8 +55,9 @@ RNA-Benchmark/
 ├── meta.csv                      # information about sequences/structures used in the final analysis
 ```
 
-❗ To generate all the plots from the benchmark analysis, run:
-'''
+❗ To generate all the plots from the benchmark analysis run:
+
+```
 cd ../scr
 python benchmark_analysis_run.py
-'''
+```
