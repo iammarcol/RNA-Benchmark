@@ -1514,7 +1514,7 @@ def ranks_rf2na_single(input_dir: str, output_dir: str):
 
     # File paths
     tm_path = os.path.join(input_dir, "rf2na_single.csv")
-    conf_path = os.path.join(input_dir, "rf2na_confidences_single.csv")
+    conf_path = os.path.join(input_dir, "rf2na_confidences.csv")
 
     # Load CSVs
     df_tm = pd.read_csv(tm_path)
@@ -1839,7 +1839,7 @@ def ranks_rf2na_complexes(input_dir: str, output_dir: str):
 
     # Input file paths
     tm_path = os.path.join(input_dir, "rf2na_complexes.csv")
-    top_path = os.path.join(input_dir, "rf2na_confidences_complexes.csv")
+    conf_path = os.path.join(input_dir, "rf2na_confidences.csv")
 
     # Load model scores
     df_tm = pd.read_csv(tm_path)
@@ -1850,13 +1850,20 @@ def ranks_rf2na_complexes(input_dir: str, output_dir: str):
         lambda x: int(re.search(r'_(\d+)\.pdb', x).group(1)) if re.search(r'_(\d+)\.pdb', x) else None
     )
 
-    # Load top-ranked scores
-    df_toprank = pd.read_csv(top_path)
-    df_toprank = df_toprank[['PDB_ID', 'Total_DockQ_Score']].rename(columns={'Total_DockQ_Score': 'DockQ_Score'})
-    df_toprank = df_toprank.drop_duplicates(subset='PDB_ID', keep='first')
+    # Load confidence scores
+    df_conf = pd.read_csv(conf_path)
+    df_conf['ranking_score'] = pd.to_numeric(df_conf['ranking_score'], errors='coerce')
+
+    # Merge scores and confidences
+    df_merged = df_tm.merge(df_conf, left_on='Model_ID', right_on='ID', how='inner')
+
+    # Sort and get top-ranked per PDB_ID (if ties, keep the first one)
+    df_merged_sorted = df_merged.sort_values(by=['PDB_ID', 'ranking_score'], ascending=[True, False])
+    df_toprank = df_merged_sorted.groupby('PDB_ID', as_index=False).first()[['PDB_ID', 'DockQ_Score']]
+    df_toprank = df_toprank.rename(columns={'DockQ_Score': 'Top_DockQ_Score'})
 
     # Order by median DockQ score
-    median_order = df_tm.groupby('PDB_ID')['DockQ_Score'].median().sort_values(ascending=False).index
+    median_order = df_tm.groupby('PDB_ID')['DockQ_Score'].median().sort_values(ascending=False).index.tolist()
 
     # Color oligo RNAs
     oligo_rnas = {
@@ -1877,11 +1884,19 @@ def ranks_rf2na_complexes(input_dir: str, output_dir: str):
     )
 
     # Align and plot top-ranked DockQ scores
-    df_toprank = df_toprank.set_index("PDB_ID").reindex(median_order, copy=False).dropna(subset=["DockQ_Score"]).reset_index()
-    plt.plot(df_toprank["PDB_ID"], df_toprank["DockQ_Score"], marker=".", linestyle="-", color="red", label="Top-ranked model")
+    df_toprank = df_toprank.set_index("PDB_ID").reindex(median_order).dropna().reset_index()
+    x_positions = list(range(len(df_toprank)))  # use numeric x for line plot
+    plt.plot(
+        x_positions,
+        df_toprank["Top_DockQ_Score"],
+        marker=".",
+        linestyle="-",
+        color="red",
+        label="Top-ranked model"
+    )
 
     # Formatting
-    plt.xticks(rotation=90)
+    plt.xticks(ticks=x_positions, labels=df_toprank["PDB_ID"], rotation=90)
     plt.xlabel('Reference ID')
     plt.ylabel('DockQ')
     plt.title('RF2NA: DockQ Score Distribution for complexes (n=5)')
@@ -1892,10 +1907,6 @@ def ranks_rf2na_complexes(input_dir: str, output_dir: str):
     output_path = os.path.join(output_dir, "Fig-S4-B.png")
     plt.savefig(output_path, dpi=300)
     plt.close()
-
-
-
-
 
 ########################### CONFIDENCE SCORING - Figure 4B, 4D, 4F ###########################
 

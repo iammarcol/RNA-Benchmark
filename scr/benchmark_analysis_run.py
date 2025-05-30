@@ -4,7 +4,7 @@ input_dir= "../OUTPUTS/scores-single"
 output_dir= "../OUTPUTS/figures"
 chain_tm = "../OUTPUTS/scores-chains"
 tm_complexes = "../OUTPUTS/scores-complexes"
-ranks_dir = "../OUTPUTS/ranks-csvs"
+ranks_dir = "../OUTPUTS/rank-csvs"
 similarity_dir = "../OUTPUTS/similarity-csv"
 
 # Figure 1
@@ -70,18 +70,30 @@ ranks_af3_single(
 )
 
 # Figure S2-B
+'''
+In the case of RF2NA ptm/iptm are not reported,
+so we use averga pLDDT to select the top-ranked model.
+'''
 ranks_rf2na_single(
     input_dir=ranks_dir,
     output_dir=output_dir
 )
 
 # Figure S1-B
+'''
+In the case of Boltz-1 ranking is done during inference, 
+so we just picked the top-ranked output for generating this plot.
+'''
 ranks_boltz_single( 
     input_dir=ranks_dir,
     output_dir=output_dir)
 
 
 # Figure S2-A
+'''
+In the case of HelixFold3 ranking is done during inference, 
+so we just picked the top-ranked output for generating this plot.
+'''
 ranks_hf3_single( 
     input_dir=ranks_dir,
     output_dir=output_dir)
@@ -92,11 +104,19 @@ ranks_af3_complexes(
     output_dir=output_dir)
 
 # Figure S3-B
+'''
+In the case of Boltz-1 ranking is done during inference, 
+so we just picked the top-ranked output for generating this plot.
+'''
 ranks_boltz_complexes(
     input_dir=ranks_dir,
     output_dir=output_dir)
 
 # Figure S4-A
+'''
+In the case of HelixFold3 ranking is done during inference, 
+so we just picked the top-ranked output for generating this plot.
+'''
 ranks_hf3_complexes(
     input_dir=ranks_dir,
     output_dir=output_dir)
