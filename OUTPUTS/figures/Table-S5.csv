@@ -1,0 +1,5 @@
+Method,Mean TM_Score,Mean DockQ_Score,Count,Success_rate_dockq
+AF3,0.642,0.395,39,53.8
+Boltz,0.597,0.345,39,48.7
+HF3,0.496,0.315,39,35.9
+RF2NA,0.466,0.105,39,17.9

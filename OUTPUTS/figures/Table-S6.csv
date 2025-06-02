@@ -1,5 +1,5 @@
-Method,Mean TM_Score,Mean DockQ_Score,Count,Success_rate_dockq
-AF3,0.642,0.395,39,53.8
-Boltz,0.597,0.345,39,48.7
-HF3,0.496,0.315,39,35.9
-RF2NA,0.466,0.105,39,17.9
+Model,RNA/Protein,RNA/RNA,Combined
+AF3,0.382,0.343,0.37
+Boltz,0.309,0.33,0.315
+HF3,0.288,0.273,0.284
+RF2NA,0.072,0.161,0.099

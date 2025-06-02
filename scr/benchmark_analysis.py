@@ -920,7 +920,7 @@ def plot_tm_dockq_complexes(
         })
 
     summary_df = pd.DataFrame(summary_records)
-    summary_csv_path = os.path.join(output_dir, "Table-S6.csv")
+    summary_csv_path = os.path.join(output_dir, "Table-S5.csv")
     summary_df.to_csv(summary_csv_path, index=False)
 
 
@@ -1307,7 +1307,7 @@ def interface_violinplots(input_dir: str, output_dir: str) -> None:
     mean_scores = mean_by_type.merge(mean_combined, left_index=True, right_index=True)
 
     # Save mean scores table
-    output_table_path = os.path.join(output_dir, 'Table-S7.csv')
+    output_table_path = os.path.join(output_dir, 'Table-S6.csv')
     mean_scores.round(3).to_csv(output_table_path)
 
 
