@@ -2,8 +2,10 @@ Predicted_PDB,Reference_ID,TM_Score
 7umc_se5_sa1.pdb,7UMC,0.43502
 r1242_se4_sa1.pdb,R1242,0.19239
 8tvz_se4_sa3.pdb,8TVZ,0.14853
+8bm6_se3_sa0.pdb,8BM6,0.63385
 8fcs_se5_sa4.pdb,8FCS,0.83642
 8bwt_se2_sa4.pdb,8BWT,0.68542
+8edp_se5_sa2.pdb,8EDP,0.33843
 8k15_se4_sa2.pdb,8K15,0.19832
 8k15_se1_sa0.pdb,8K15,0.14386
 9eow_se1_sa3.pdb,9EOW,0.81154
@@ -53,6 +55,7 @@ r1286_se4_sa3.pdb,R1286,0.11054
 r1242_se2_sa2.pdb,R1242,0.23199
 7sxp_se5_sa0.pdb,7SXP,0.20725
 9bun_se5_sa4.pdb,9BUN,0.41237
+8bm6_se3_sa2.pdb,8BM6,0.63906
 8btz_se4_sa3.pdb,8BTZ,0.25247
 r1288_se2_sa4.pdb,R1288,0.52581
 8jhp_se3_sa2.pdb,8JHP,0.63372
@@ -77,6 +80,7 @@ r1256_se5_sa3.pdb,R1256,0.28586
 8tvz_se4_sa0.pdb,8TVZ,0.20073
 r1242_se1_sa0.pdb,R1242,0.24559
 8i44_se3_sa3.pdb,8I44,0.52795
+8edp_se1_sa2.pdb,8EDP,0.28270
 r1264_se5_sa3.pdb,R1264,0.46556
 r1212_se5_sa4.pdb,R1212,0.30315
 7umc_se1_sa4.pdb,7UMC,0.38597
@@ -98,6 +102,7 @@ r1262_se5_sa1.pdb,R1262,0.80583
 7umd_se5_sa1.pdb,7UMD,0.61816
 8tju_se3_sa0.pdb,8TJU,0.28462
 r1288_se4_sa3.pdb,R1288,0.53800
+8bm6_se4_sa1.pdb,8BM6,0.62427
 r1293_se5_sa4.pdb,R1293,0.44960
 8jhp_se1_sa4.pdb,8JHP,0.73774
 r1248_se4_sa2.pdb,R1248,0.26060
@@ -108,10 +113,12 @@ r1271_se3_sa0.pdb,R1271,0.86771
 8cq1_se1_sa0.pdb,8CQ1,0.80823
 8k15_se3_sa1.pdb,8K15,0.19303
 7zj5_se1_sa1.pdb,7ZJ5,0.24652
+8edp_se1_sa3.pdb,8EDP,0.33771
 r1263_se5_sa2.pdb,R1263,0.53327
 8fcs_se3_sa2.pdb,8FCS,0.83966
 r1203_se3_sa0.pdb,R1203,0.57553
 8tvz_se1_sa3.pdb,8TVZ,0.15666
+8edp_se4_sa1.pdb,8EDP,0.36634
 8bwt_se2_sa3.pdb,8BWT,0.74755
 8qo3_se3_sa0.pdb,8QO3,0.56774
 r1288_se5_sa0.pdb,R1288,0.58916
@@ -127,10 +134,12 @@ r1205_se3_sa4.pdb,R1205,0.48484
 7ume_se5_sa2.pdb,7UME,0.85174
 r1255_se3_sa0.pdb,R1255,0.43587
 r1262_se4_sa4.pdb,R1262,0.84223
+8bm6_se2_sa4.pdb,8BM6,0.65622
 8tns_se1_sa2.pdb,8TNS,0.36023
 8btz_se5_sa2.pdb,8BTZ,0.22332
 7wia_se3_sa1.pdb,7WIA,0.47971
 r1211_se2_sa3.pdb,R1211,0.54044
+8wa4_se1_sa1.pdb,8WA4,0.88052
 r1211_se2_sa1.pdb,R1211,0.53075
 9eow_se4_sa0.pdb,9EOW,0.76278
 8vt5_se5_sa3.pdb,8VT5,0.92899
@@ -148,6 +157,7 @@ r1242_se4_sa2.pdb,R1242,0.20542
 r1293_se5_sa1.pdb,R1293,0.58347
 r1288_se1_sa0.pdb,R1288,0.54480
 r1254_se4_sa4.pdb,R1254,0.16264
+8edp_se3_sa3.pdb,8EDP,0.27978
 r1288_se1_sa4.pdb,R1288,0.49863
 r1252_se3_sa4.pdb,R1252,0.15762
 r1262_se4_sa3.pdb,R1262,0.84752
@@ -158,6 +168,7 @@ r1212_se1_sa3.pdb,R1212,0.34929
 r1203_se2_sa4.pdb,R1203,0.58492
 r1271_se2_sa1.pdb,R1271,0.86131
 r1252_se4_sa2.pdb,R1252,0.13643
+8wa4_se3_sa2.pdb,8WA4,0.83809
 8vt5_se2_sa1.pdb,8VT5,0.91378
 8v1h_se5_sa4.pdb,8V1H,0.81050
 8tju_se4_sa3.pdb,8TJU,0.29819
@@ -169,6 +180,7 @@ r1254_se4_sa0.pdb,R1254,0.18661
 r1212_se1_sa4.pdb,R1212,0.21607
 8sch_se3_sa0.pdb,8SCH,0.41247
 8q4o_se2_sa4.pdb,8Q4O,0.24372
+8wa4_se4_sa0.pdb,8WA4,0.84152
 r1281_se1_sa0.pdb,R1281,0.22214
 8uye_se4_sa1.pdb,8UYE,0.39137
 r1293_se1_sa2.pdb,R1293,0.52169
@@ -216,6 +228,7 @@ r1293_se5_sa0.pdb,R1293,0.45423
 7ucr_se1_sa4.pdb,7UCR,0.99494
 7wia_se2_sa1.pdb,7WIA,0.50699
 r1209_se3_sa4.pdb,R1209,0.41873
+8wa4_se1_sa2.pdb,8WA4,0.87395
 r1241_se4_sa4.pdb,R1241,0.30908
 r1254_se1_sa4.pdb,R1254,0.15308
 8q4o_se1_sa4.pdb,8Q4O,0.26796
@@ -255,6 +268,7 @@ r1264_se3_sa1.pdb,R1264,0.50939
 r1281_se2_sa3.pdb,R1281,0.27646
 r1256_se4_sa3.pdb,R1256,0.29528
 9eow_se1_sa0.pdb,9EOW,0.80073
+8edp_se3_sa1.pdb,8EDP,0.34125
 7shx_se5_sa2.pdb,7SHX,0.27742
 r1209_se3_sa0.pdb,R1209,0.35648
 8vt5_se5_sa2.pdb,8VT5,0.91686
@@ -296,6 +310,7 @@ r1286_se1_sa3.pdb,R1286,0.15586
 r1296_se4_sa3.pdb,R1296,0.41236
 8v1h_se5_sa3.pdb,8V1H,0.80487
 r1209_se1_sa4.pdb,R1209,0.43456
+8wa4_se5_sa4.pdb,8WA4,0.87796
 8btz_se2_sa1.pdb,8BTZ,0.19380
 7uga_se4_sa1.pdb,7UGA,0.70004
 r1251_se4_sa1.pdb,R1251,0.11704
@@ -325,13 +340,16 @@ r1296_se3_sa1.pdb,R1296,0.41302
 7zj5_se3_sa0.pdb,7ZJ5,0.26211
 r1288_se3_sa0.pdb,R1288,0.53110
 7ucr_se5_sa1.pdb,7UCR,0.99675
+8edp_se2_sa3.pdb,8EDP,0.30645
 7qdu_se4_sa2.pdb,7QDU,0.43177
+8edp_se4_sa3.pdb,8EDP,0.33025
 7wia_se5_sa0.pdb,7WIA,0.51694
 7sxp_se1_sa1.pdb,7SXP,0.28865
 r1263_se3_sa3.pdb,R1263,0.50501
 7shx_se3_sa1.pdb,7SHX,0.33062
 7qdu_se5_sa3.pdb,7QDU,0.40661
 r1293_se4_sa1.pdb,R1293,0.52980
+8edp_se3_sa2.pdb,8EDP,0.35360
 8i44_se3_sa0.pdb,8I44,0.54171
 8vpv_se2_sa0.pdb,8VPV,0.51192
 8qo2_se4_sa3.pdb,8QO2,0.38885
@@ -377,6 +395,7 @@ r1241_se3_sa0.pdb,R1241,0.33390
 8vt5_se4_sa3.pdb,8VT5,0.91056
 8v1h_se3_sa2.pdb,8V1H,0.79603
 r1209_se2_sa0.pdb,R1209,0.35402
+8bm6_se2_sa1.pdb,8BM6,0.64194
 r1264_se4_sa0.pdb,R1264,0.50088
 r1262_se5_sa3.pdb,R1262,0.85081
 r1285_se2_sa2.pdb,R1285,0.35409
@@ -459,9 +478,11 @@ r1205_se2_sa3.pdb,R1205,0.43934
 8its_se1_sa2.pdb,8ITS,0.42666
 8v1i_se5_sa4.pdb,8V1I,0.86121
 9eow_se1_sa1.pdb,9EOW,0.76252
+8bm6_se4_sa2.pdb,8BM6,0.62119
 8vt5_se2_sa2.pdb,8VT5,0.89626
 8qo4_se4_sa3.pdb,8QO4,0.43114
 r1252_se1_sa2.pdb,R1252,0.12706
+8edp_se1_sa1.pdb,8EDP,0.33101
 r1288_se1_sa2.pdb,R1288,0.55755
 7sxp_se4_sa1.pdb,7SXP,0.20473
 r1256_se1_sa3.pdb,R1256,0.27721
@@ -504,6 +525,7 @@ r1281_se4_sa0.pdb,R1281,0.25583
 8clr_se2_sa4.pdb,8CLR,0.92862
 r1205_se5_sa4.pdb,R1205,0.47802
 7wia_se1_sa3.pdb,7WIA,0.49461
+8bm6_se1_sa2.pdb,8BM6,0.60222
 r1271_se4_sa1.pdb,R1271,0.86039
 r1211_se2_sa0.pdb,R1211,0.69828
 8vt5_se2_sa3.pdb,8VT5,0.89270
@@ -537,11 +559,13 @@ r1248_se2_sa0.pdb,R1248,0.25704
 8tju_se1_sa3.pdb,8TJU,0.30568
 7sxp_se5_sa3.pdb,7SXP,0.22175
 8qo4_se3_sa3.pdb,8QO4,0.38448
+8wa4_se5_sa0.pdb,8WA4,0.86717
 r1264_se3_sa4.pdb,R1264,0.49188
 r1262_se2_sa1.pdb,R1262,0.85534
 r1271_se5_sa1.pdb,R1271,0.85757
 7zj5_se5_sa1.pdb,7ZJ5,0.24749
 r1241_se1_sa1.pdb,R1241,0.30042
+8bm6_se5_sa1.pdb,8BM6,0.62183
 r1293_se1_sa4.pdb,R1293,0.52566
 r1264_se4_sa3.pdb,R1264,0.49552
 8uys_se4_sa3.pdb,8UYS,0.41803
@@ -590,6 +614,7 @@ r1281_se3_sa3.pdb,R1281,0.19127
 8uye_se2_sa4.pdb,8UYE,0.41425
 7zj5_se1_sa2.pdb,7ZJ5,0.22738
 7ume_se4_sa0.pdb,7UME,0.85015
+8edp_se2_sa4.pdb,8EDP,0.35517
 8sch_se2_sa1.pdb,8SCH,0.47123
 r1256_se5_sa2.pdb,R1256,0.27070
 8k15_se3_sa2.pdb,8K15,0.13157
@@ -616,6 +641,7 @@ r1285_se1_sa2.pdb,R1285,0.37467
 8v1h_se1_sa3.pdb,8V1H,0.79322
 7q48_se4_sa3.pdb,7Q48,0.30134
 8btz_se1_sa4.pdb,8BTZ,0.24920
+8bm6_se2_sa2.pdb,8BM6,0.64649
 7qdu_se2_sa1.pdb,7QDU,0.45932
 8utg_se1_sa0.pdb,8UTG,0.37111
 r1296_se2_sa2.pdb,R1296,0.39196
@@ -624,7 +650,9 @@ r1296_se2_sa2.pdb,R1296,0.39196
 r1242_se4_sa3.pdb,R1242,0.23884
 r1293_se2_sa2.pdb,R1293,0.53969
 8clr_se2_sa1.pdb,8CLR,0.92518
+8bm6_se3_sa3.pdb,8BM6,0.59709
 r1248_se4_sa4.pdb,R1248,0.21063
+8wa4_se3_sa1.pdb,8WA4,0.88419
 r1248_se3_sa2.pdb,R1248,0.25193
 r1263_se3_sa2.pdb,R1263,0.51661
 7qdu_se2_sa4.pdb,7QDU,0.30459
@@ -652,6 +680,7 @@ r1255_se2_sa2.pdb,R1255,0.36042
 8vt5_se1_sa2.pdb,8VT5,0.90417
 7uga_se5_sa3.pdb,7UGA,0.70989
 8qo4_se2_sa4.pdb,8QO4,0.43454
+8edp_se3_sa4.pdb,8EDP,0.32336
 r1271_se1_sa0.pdb,R1271,0.85854
 7sxp_se4_sa0.pdb,7SXP,0.31047
 8qo4_se5_sa1.pdb,8QO4,0.38882
@@ -668,8 +697,10 @@ r1281_se5_sa2.pdb,R1281,0.22543
 8vt5_se2_sa4.pdb,8VT5,0.90691
 9bun_se1_sa2.pdb,9BUN,0.41836
 7ume_se1_sa1.pdb,7UME,0.83034
+8wa4_se2_sa1.pdb,8WA4,0.84736
 8upt_se2_sa4.pdb,8UPT,0.82399
 8jhp_se4_sa2.pdb,8JHP,0.69356
+8edp_se4_sa4.pdb,8EDP,0.35039
 r1205_se2_sa4.pdb,R1205,0.41027
 r1203_se4_sa2.pdb,R1203,0.56307
 8utg_se3_sa4.pdb,8UTG,0.31950
@@ -727,6 +758,8 @@ r1263_se5_sa4.pdb,R1263,0.47419
 9eow_se3_sa0.pdb,9EOW,0.79684
 r1281_se1_sa4.pdb,R1281,0.28020
 8vt5_se3_sa1.pdb,8VT5,0.91834
+8edp_se5_sa4.pdb,8EDP,0.37111
+8wa4_se2_sa0.pdb,8WA4,0.83487
 8utg_se1_sa4.pdb,8UTG,0.34477
 8uye_se3_sa4.pdb,8UYE,0.38529
 8bwt_se5_sa3.pdb,8BWT,0.76265
@@ -748,6 +781,7 @@ r1288_se4_sa2.pdb,R1288,0.55662
 8bwt_se5_sa1.pdb,8BWT,0.74174
 7v06_se3_sa4.pdb,7V06,0.80364
 8its_se1_sa3.pdb,8ITS,0.47161
+8edp_se4_sa0.pdb,8EDP,0.33067
 8fcs_se1_sa3.pdb,8FCS,0.86525
 r1285_se3_sa4.pdb,R1285,0.32782
 8jhp_se2_sa3.pdb,8JHP,0.74729
@@ -804,6 +838,7 @@ r1241_se2_sa2.pdb,R1241,0.31068
 8k15_se3_sa3.pdb,8K15,0.10805
 8q4o_se4_sa4.pdb,8Q4O,0.27056
 8v1h_se2_sa1.pdb,8V1H,0.79882
+8bm6_se2_sa3.pdb,8BM6,0.62983
 8tvz_se1_sa0.pdb,8TVZ,0.20199
 9eow_se5_sa3.pdb,9EOW,0.77648
 8vt5_se1_sa4.pdb,8VT5,0.91054
@@ -816,6 +851,7 @@ r1209_se2_sa1.pdb,R1209,0.35950
 r1241_se1_sa4.pdb,R1241,0.32853
 7q48_se5_sa4.pdb,7Q48,0.35561
 9bun_se5_sa3.pdb,9BUN,0.43933
+8wa4_se4_sa1.pdb,8WA4,0.86405
 r1263_se2_sa2.pdb,R1263,0.48126
 8v1i_se3_sa0.pdb,8V1I,0.87014
 8btz_se3_sa1.pdb,8BTZ,0.25987
@@ -823,6 +859,7 @@ r1263_se2_sa2.pdb,R1263,0.48126
 8clr_se4_sa4.pdb,8CLR,0.94484
 7shx_se1_sa1.pdb,7SHX,0.29963
 r1242_se5_sa4.pdb,R1242,0.27071
+8edp_se5_sa0.pdb,8EDP,0.38412
 8fcs_se1_sa4.pdb,8FCS,0.84298
 9bun_se4_sa4.pdb,9BUN,0.41373
 7uga_se1_sa3.pdb,7UGA,0.75064
@@ -839,6 +876,7 @@ r1262_se5_sa4.pdb,R1262,0.85494
 7shx_se5_sa4.pdb,7SHX,0.26103
 r1285_se4_sa0.pdb,R1285,0.35956
 7sxp_se5_sa2.pdb,7SXP,0.35864
+8bm6_se1_sa0.pdb,8BM6,0.62749
 7umc_se4_sa1.pdb,7UMC,0.39944
 8q4o_se1_sa2.pdb,8Q4O,0.24836
 r1263_se4_sa2.pdb,R1263,0.52272
@@ -850,6 +888,7 @@ r1205_se2_sa0.pdb,R1205,0.45546
 r1296_se4_sa4.pdb,R1296,0.43565
 8cq1_se1_sa2.pdb,8CQ1,0.80674
 7wia_se4_sa1.pdb,7WIA,0.50528
+8wa4_se2_sa2.pdb,8WA4,0.83516
 8qo2_se1_sa1.pdb,8QO2,0.44334
 7ume_se2_sa4.pdb,7UME,0.79755
 7shx_se4_sa0.pdb,7SHX,0.23016
@@ -872,6 +911,7 @@ r1211_se1_sa4.pdb,R1211,0.54001
 7umd_se2_sa2.pdb,7UMD,0.50399
 r1211_se3_sa1.pdb,R1211,0.56629
 7sxp_se4_sa3.pdb,7SXP,0.15781
+8bm6_se4_sa0.pdb,8BM6,0.63095
 8i44_se3_sa1.pdb,8I44,0.54842
 8bu8_se5_sa3.pdb,8BU8,0.13171
 8bwt_se4_sa0.pdb,8BWT,0.73817
@@ -939,6 +979,7 @@ r1288_se3_sa2.pdb,R1288,0.56378
 r1241_se3_sa1.pdb,R1241,0.35012
 8bu8_se2_sa4.pdb,8BU8,0.17125
 r1248_se3_sa1.pdb,R1248,0.24085
+8wa4_se5_sa3.pdb,8WA4,0.86656
 8v1h_se5_sa2.pdb,8V1H,0.79706
 r1248_se5_sa4.pdb,R1248,0.31372
 r1271_se3_sa4.pdb,R1271,0.86064
@@ -953,15 +994,18 @@ r1256_se3_sa4.pdb,R1256,0.28268
 8uys_se5_sa0.pdb,8UYS,0.41888
 7ume_se4_sa4.pdb,7UME,0.88258
 8jhp_se2_sa1.pdb,8JHP,0.70010
+8bm6_se1_sa1.pdb,8BM6,0.60646
 r1212_se2_sa4.pdb,R1212,0.24974
 8jhp_se3_sa0.pdb,8JHP,0.68638
 8bu8_se1_sa1.pdb,8BU8,0.18126
+8edp_se5_sa3.pdb,8EDP,0.36028
 7shx_se1_sa4.pdb,7SHX,0.21869
 7umd_se3_sa2.pdb,7UMD,0.56182
 8its_se3_sa1.pdb,8ITS,0.41297
 r1211_se1_sa1.pdb,R1211,0.55200
 r1209_se3_sa2.pdb,R1209,0.34994
 7sxp_se2_sa4.pdb,7SXP,0.23254
+8bm6_se3_sa4.pdb,8BM6,0.64335
 7v06_se2_sa0.pdb,7V06,0.76566
 r1256_se2_sa3.pdb,R1256,0.29628
 8qo4_se5_sa2.pdb,8QO4,0.43907
@@ -969,6 +1013,7 @@ r1288_se2_sa0.pdb,R1288,0.48525
 7umc_se2_sa4.pdb,7UMC,0.52575
 r1212_se4_sa0.pdb,R1212,0.27989
 r1211_se4_sa2.pdb,R1211,0.55239
+8bm6_se4_sa4.pdb,8BM6,0.62680
 8xzl_se2_sa1.pdb,8XZL,0.43177
 8jhp_se2_sa0.pdb,8JHP,0.70292
 r1241_se5_sa3.pdb,R1241,0.33899
@@ -1030,6 +1075,7 @@ r1212_se5_sa0.pdb,R1212,0.28123
 7q48_se4_sa1.pdb,7Q48,0.35912
 7sxp_se2_sa1.pdb,7SXP,0.28590
 8uys_se3_sa2.pdb,8UYS,0.47989
+8wa4_se5_sa2.pdb,8WA4,0.86332
 r1288_se2_sa1.pdb,R1288,0.52093
 r1212_se1_sa0.pdb,R1212,0.25950
 8tju_se5_sa3.pdb,8TJU,0.32969
@@ -1092,6 +1138,7 @@ r1252_se2_sa1.pdb,R1252,0.15279
 9eow_se2_sa1.pdb,9EOW,0.72083
 7ume_se3_sa0.pdb,7UME,0.84429
 7v06_se5_sa0.pdb,7V06,0.80214
+8wa4_se1_sa3.pdb,8WA4,0.82123
 8sch_se1_sa3.pdb,8SCH,0.41392
 8utg_se5_sa4.pdb,8UTG,0.34094
 8btz_se2_sa4.pdb,8BTZ,0.20867
@@ -1109,11 +1156,14 @@ r1242_se2_sa4.pdb,R1242,0.19497
 8tns_se3_sa2.pdb,8TNS,0.47442
 8tns_se1_sa0.pdb,8TNS,0.45378
 9eow_se2_sa0.pdb,9EOW,0.75676
+8wa4_se1_sa4.pdb,8WA4,0.87824
 8qo3_se4_sa3.pdb,8QO3,0.57853
 7uga_se1_sa4.pdb,7UGA,0.68739
 8jhp_se1_sa1.pdb,8JHP,0.62247
 9bun_se4_sa2.pdb,9BUN,0.45576
+8bm6_se5_sa3.pdb,8BM6,0.66177
 8qo2_se2_sa1.pdb,8QO2,0.46436
+8edp_se4_sa2.pdb,8EDP,0.37046
 r1264_se2_sa4.pdb,R1264,0.47207
 8k15_se3_sa4.pdb,8K15,0.16221
 8vpv_se1_sa4.pdb,8VPV,0.46731
@@ -1154,6 +1204,7 @@ r1271_se3_sa1.pdb,R1271,0.85004
 r1251_se4_sa3.pdb,R1251,0.13560
 8tju_se2_sa0.pdb,8TJU,0.30757
 r1255_se4_sa1.pdb,R1255,0.41747
+8wa4_se2_sa4.pdb,8WA4,0.88892
 8upt_se2_sa0.pdb,8UPT,0.81637
 8upt_se5_sa1.pdb,8UPT,0.82037
 r1241_se5_sa4.pdb,R1241,0.32064
@@ -1171,6 +1222,7 @@ r1209_se4_sa0.pdb,R1209,0.37577
 8q4o_se3_sa4.pdb,8Q4O,0.25256
 r1285_se3_sa0.pdb,R1285,0.37163
 r1271_se5_sa0.pdb,R1271,0.85830
+8bm6_se2_sa0.pdb,8BM6,0.63427
 r1255_se4_sa2.pdb,R1255,0.44652
 r1286_se3_sa3.pdb,R1286,0.12960
 9eow_se2_sa2.pdb,9EOW,0.76694
@@ -1189,6 +1241,8 @@ r1209_se2_sa2.pdb,R1209,0.47830
 r1293_se2_sa4.pdb,R1293,0.53815
 7shx_se5_sa3.pdb,7SHX,0.24141
 r1296_se1_sa4.pdb,R1296,0.41566
+8wa4_se4_sa4.pdb,8WA4,0.85521
+8bm6_se1_sa3.pdb,8BM6,0.64258
 8btz_se1_sa0.pdb,8BTZ,0.27061
 8uys_se1_sa3.pdb,8UYS,0.42146
 r1209_se1_sa0.pdb,R1209,0.37556
@@ -1253,6 +1307,7 @@ r1255_se3_sa1.pdb,R1255,0.44521
 7shx_se2_sa2.pdb,7SHX,0.27520
 r1212_se3_sa1.pdb,R1212,0.24605
 r1264_se2_sa3.pdb,R1264,0.48285
+8edp_se1_sa4.pdb,8EDP,0.33489
 8q4o_se4_sa3.pdb,8Q4O,0.32193
 8qo4_se2_sa1.pdb,8QO4,0.42157
 r1254_se3_sa4.pdb,R1254,0.15460
@@ -1307,7 +1362,9 @@ r1242_se2_sa0.pdb,R1242,0.25126
 r1251_se3_sa1.pdb,R1251,0.15510
 r1296_se2_sa0.pdb,R1296,0.41138
 8vci_se5_sa2.pdb,8VCI,0.41363
+8wa4_se3_sa3.pdb,8WA4,0.85142
 7ucr_se4_sa3.pdb,7UCR,0.99658
+8edp_se2_sa2.pdb,8EDP,0.33331
 8btz_se4_sa2.pdb,8BTZ,0.25470
 7qdu_se3_sa1.pdb,7QDU,0.44783
 7ucr_se3_sa3.pdb,7UCR,0.99533
@@ -1321,6 +1378,7 @@ r1251_se5_sa3.pdb,R1251,0.13876
 r1248_se4_sa3.pdb,R1248,0.25945
 r1248_se2_sa1.pdb,R1248,0.23263
 8bu8_se1_sa2.pdb,8BU8,0.14714
+8edp_se2_sa0.pdb,8EDP,0.32358
 r1211_se5_sa4.pdb,R1211,0.54742
 8upt_se1_sa0.pdb,8UPT,0.83272
 r1296_se4_sa2.pdb,R1296,0.39796
@@ -1338,6 +1396,7 @@ r1286_se1_sa1.pdb,R1286,0.13846
 r1286_se4_sa4.pdb,R1286,0.16815
 r1252_se5_sa3.pdb,R1252,0.12095
 r1212_se4_sa4.pdb,R1212,0.31693
+8wa4_se2_sa3.pdb,8WA4,0.83973
 7wia_se5_sa3.pdb,7WIA,0.56339
 7qdu_se4_sa0.pdb,7QDU,0.46922
 7wia_se2_sa2.pdb,7WIA,0.54188
@@ -1394,9 +1453,12 @@ r1271_se3_sa2.pdb,R1271,0.86194
 8jhp_se5_sa2.pdb,8JHP,0.74847
 8cq1_se1_sa3.pdb,8CQ1,0.83471
 8btz_se1_sa1.pdb,8BTZ,0.23570
+8bm6_se5_sa4.pdb,8BM6,0.66392
 7uga_se4_sa0.pdb,7UGA,0.69348
 8uye_se4_sa4.pdb,8UYE,0.43530
 7ume_se5_sa3.pdb,7UME,0.83547
+8edp_se5_sa1.pdb,8EDP,0.35550
+8wa4_se4_sa3.pdb,8WA4,0.80762
 8qo3_se3_sa1.pdb,8QO3,0.61797
 r1296_se1_sa2.pdb,R1296,0.40287
 r1281_se5_sa4.pdb,R1281,0.27898
@@ -1476,11 +1538,13 @@ r1254_se2_sa1.pdb,R1254,0.18721
 r1254_se2_sa2.pdb,R1254,0.20763
 8v1h_se5_sa0.pdb,8V1H,0.83694
 8jhp_se4_sa0.pdb,8JHP,0.75933
+8bm6_se4_sa3.pdb,8BM6,0.64297
 8tns_se1_sa1.pdb,8TNS,0.47307
 8qo2_se2_sa0.pdb,8QO2,0.36360
 8jhp_se5_sa0.pdb,8JHP,0.71540
 7q48_se4_sa0.pdb,7Q48,0.26274
 7shx_se1_sa3.pdb,7SHX,0.22349
+8bm6_se1_sa4.pdb,8BM6,0.64536
 8qo2_se4_sa0.pdb,8QO2,0.30300
 8v1i_se4_sa1.pdb,8V1I,0.82371
 8fcs_se2_sa3.pdb,8FCS,0.85538
@@ -1493,7 +1557,9 @@ r1205_se4_sa1.pdb,R1205,0.45268
 8i44_se5_sa1.pdb,8I44,0.52167
 7ume_se1_sa3.pdb,7UME,0.82900
 r1285_se5_sa3.pdb,R1285,0.36058
+8wa4_se3_sa4.pdb,8WA4,0.86695
 r1293_se3_sa1.pdb,R1293,0.54831
+8wa4_se4_sa2.pdb,8WA4,0.86184
 8bu8_se2_sa3.pdb,8BU8,0.15479
 r1209_se1_sa2.pdb,R1209,0.41102
 r1212_se3_sa0.pdb,R1212,0.28347
@@ -1509,6 +1575,7 @@ r1211_se3_sa2.pdb,R1211,0.51275
 7v06_se4_sa4.pdb,7V06,0.74927
 7uga_se3_sa0.pdb,7UGA,0.63554
 8bu8_se4_sa2.pdb,8BU8,0.17077
+8edp_se1_sa0.pdb,8EDP,0.33382
 7sxp_se4_sa4.pdb,7SXP,0.26897
 8qo4_se3_sa1.pdb,8QO4,0.42457
 8k15_se5_sa2.pdb,8K15,0.15078
@@ -1523,6 +1590,7 @@ r1285_se3_sa3.pdb,R1285,0.40923
 8qo2_se3_sa2.pdb,8QO2,0.42391
 8uye_se3_sa3.pdb,8UYE,0.40071
 r1255_se5_sa0.pdb,R1255,0.45233
+8wa4_se3_sa0.pdb,8WA4,0.83087
 7sxp_se3_sa2.pdb,7SXP,0.28660
 7sxp_se5_sa4.pdb,7SXP,0.23766
 8upt_se5_sa2.pdb,8UPT,0.84911
@@ -1552,6 +1620,7 @@ r1288_se5_sa3.pdb,R1288,0.54290
 8q4o_se5_sa0.pdb,8Q4O,0.34606
 r1212_se3_sa3.pdb,R1212,0.27235
 8qo3_se4_sa4.pdb,8QO3,0.52746
+8wa4_se5_sa1.pdb,8WA4,0.84410
 8qo3_se1_sa1.pdb,8QO3,0.60585
 8vci_se2_sa3.pdb,8VCI,0.44912
 8vci_se4_sa4.pdb,8VCI,0.38922
@@ -1563,8 +1632,10 @@ r1212_se2_sa0.pdb,R1212,0.29364
 7zj5_se3_sa4.pdb,7ZJ5,0.27282
 r1281_se3_sa0.pdb,R1281,0.19185
 7qdu_se5_sa2.pdb,7QDU,0.46529
+8bm6_se5_sa2.pdb,8BM6,0.64069
 8vpv_se5_sa0.pdb,8VPV,0.55252
 r1203_se3_sa1.pdb,R1203,0.56255
+8bm6_se5_sa0.pdb,8BM6,0.65022
 r1203_se2_sa1.pdb,R1203,0.58324
 8xzl_se1_sa1.pdb,8XZL,0.45895
 9eow_se1_sa2.pdb,9EOW,0.77702
@@ -1572,6 +1643,7 @@ r1203_se2_sa1.pdb,R1203,0.58324
 8utg_se4_sa1.pdb,8UTG,0.33808
 r1252_se5_sa0.pdb,R1252,0.12627
 r1251_se4_sa4.pdb,R1251,0.14287
+8edp_se2_sa1.pdb,8EDP,0.33750
 8tju_se2_sa4.pdb,8TJU,0.29728
 8qo2_se2_sa3.pdb,8QO2,0.30296
 8k15_se4_sa0.pdb,8K15,0.17996
@@ -1605,8 +1677,10 @@ r1209_se1_sa3.pdb,R1209,0.48896
 r1296_se1_sa0.pdb,R1296,0.39046
 8fcs_se5_sa0.pdb,8FCS,0.87455
 8upt_se5_sa3.pdb,8UPT,0.81837
+8edp_se3_sa0.pdb,8EDP,0.24488
 r1241_se5_sa2.pdb,R1241,0.30087
 8v1i_se2_sa0.pdb,8V1I,0.86817
+8bm6_se3_sa1.pdb,8BM6,0.64257
 r1286_se2_sa0.pdb,R1286,0.15064
 8xzl_se1_sa3.pdb,8XZL,0.42038
 r1255_se1_sa3.pdb,R1255,0.38276
@@ -1620,6 +1694,7 @@ r1255_se1_sa3.pdb,R1255,0.38276
 7q48_se3_sa0.pdb,7Q48,0.30348
 8tju_se1_sa4.pdb,8TJU,0.30188
 7ume_se1_sa2.pdb,7UME,0.87313
+8wa4_se1_sa0.pdb,8WA4,0.83679
 8jhp_se3_sa3.pdb,8JHP,0.75758
 7umd_se4_sa1.pdb,7UMD,0.65680
 r1254_se3_sa0.pdb,R1254,0.21689

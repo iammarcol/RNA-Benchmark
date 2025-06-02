@@ -9,11 +9,6 @@ PDB_ID,Total_DockQ_Score,DockQ_Score,F1_Score,Native_chains,Model_chains,Type,Mo
 7VTN,0.014,0.017,0.0,"A, C","A, C","protein, rna",m_7VTN,0.12424,0.253662109375
 7XC7,0.012,0.012,0.0,"D, J","A, C","protein, rna",m_7XC7,0.27668,
 7XC7,0.012,0.013,0.0,"C, J","B, C","rna, rna",m_7XC7,0.27668,
-7XKM,0.229,0.064,0.0,"A, C","A, C","rna, rna",m_7XKM,0.30721,0.8671875
-7XKM,0.229,0.07,0.0,"A, D","A, B","rna, rna",m_7XKM,0.30721,0.8671875
-7XKM,0.229,0.075,0.0,"B, C","D, C","rna, rna",m_7XKM,0.30721,0.8671875
-7XKM,0.229,0.468,0.714,"A, B","A, D","rna, rna",m_7XKM,0.30721,0.8671875
-7XKM,0.229,0.47,0.691,"C, D","C, B","rna, rna",m_7XKM,0.30721,0.8671875
 7Y9Y,0.018,0.015,0.006,"A, D","A, C","protein, rna",m_7Y9Y,0.03713,
 7Y9Y,0.018,0.019,0.043,"R, D","B, C","rna, rna",m_7Y9Y,0.03713,
 7Y9Y,0.018,0.02,0.013,"A, R","A, B","protein, rna",m_7Y9Y,0.03713,
@@ -71,8 +66,6 @@ PDB_ID,Total_DockQ_Score,DockQ_Score,F1_Score,Native_chains,Model_chains,Type,Mo
 8WCE,0.011,0.013,0.0,"G, T","B, C","rna, rna",m_8WCE,0.10727,0.1649169921875
 8WCE,0.011,0.014,0.008,"A, T","A, C","protein, rna",m_8WCE,0.10727,0.1649169921875
 8WCS,0.013,0.013,0.009,"A, G","A, B","protein, rna",m_8WCS,0.1081,0.1785888671875
-8WU5,0.524,0.524,0.932,"A, B","B, A","rna, rna",m_8WU5,0.70714,0.96435546875
-8X1V,0.136,0.136,0.222,"A, B","A, B","rna, rna",m_8X1V,0.24351,0.62548828125
 9CPI,0.653,0.653,0.943,"A, B","B, A","rna, rna",m_9CPI,0.70184,0.93115234375
 M1209,0.016,0.01,0.0,"A, B","A, B","protein, protein",m_M1209,0.36721,0.77587890625
 M1209,0.016,0.018,0.0,"A, 0","A, C","protein, rna",m_M1209,0.36721,0.77587890625
