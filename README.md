@@ -33,7 +33,7 @@ The benchmark evaluates the performance of the following **eight** computational
 
 HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (NuFold, RhoFold+, trRosetta), while others are able to predict both monomeric and oligomeric RNAs, alone and in a complex with proteins.
 
-❗Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out-of-memory" issues, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. This, along with filtering step resulted in a dataset comprising 50 single RNA (momnomeric RNA) and 46 RNA complexes. File **meta.csv** contains only those IDs that were used in the analysis, and should be used as reference.
+❗Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out-of-memory" issues, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. This, along with filtering step resulted in a dataset comprising 47 single RNA (momnomeric RNA) and 39 RNA complexes. File **meta.csv** contains only those IDs that were used in the analysis, and should be used as reference in case of reproducing the analysis.
 
 ❗Note that we cannot distribute ground turth structures from CASP16 targets used in the analysis. All solved structures will be available at a certain time at https://predictioncenter.org/casp16/targetlist.cgi
 
@@ -50,8 +50,8 @@ RNA-Benchmark/
 │   ├── true_pdb_single.zip 
 ├── MSA/
 │   ├── msas.zip                  # MSAs used to generate structures for both single RNA and complexes
-├── OUTPUTS/                      # all CSV files of benchmarked data and scores
-├── scr/                          # code to generate all figures
+├── OUTPUTS/                      # all CSV files of benchmarked data and scores, as well as Figures from the paper
+├── scr/                          # code to generate all figures and other
 ├── meta.csv                      # information about sequences/structures used in the final analysis
 ```
 
