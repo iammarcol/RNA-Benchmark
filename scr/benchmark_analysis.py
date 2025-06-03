@@ -2328,3 +2328,100 @@ def training_dependence_scatter_complexes(similarity_dir: str, input_dir: str, o
         plt.tight_layout()
         plt.savefig(os.path.join(output_dir, output_name), dpi=300)
         plt.close()
+
+
+########################### TM-SCORE-DOCKQ - Figure S9 ###########################
+
+def tm_dockq_correlation_plot(input_dir, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Mapping filenames to method labels and output figure names
+    file_info = {
+        "usf1_af3.csv": ("AF3", "Fig-S9-A.png"),
+        "usf1_boltz.csv": ("Boltz", "Fig-S9-B.png"),
+        "usf1_hf3.csv": ("HF3", "Fig-S9-C.png"),
+        "usf1_rf2na.csv": ("RF2NA", "Fig-S9-D.png")
+    }
+
+    # Load all data and determine common (PDB_ID, Type) pairs
+    df_dict = {}
+    pair_sets = []
+
+    for filename in file_info:
+        filepath = os.path.join(input_dir, filename)
+        df = pd.read_csv(filepath)
+        df['Pair'] = list(zip(df['PDB_ID'], df['Type']))
+        df_dict[filename] = df
+        pair_sets.append(set(df['Pair']))
+
+    common_pairs = set.intersection(*pair_sets)
+
+    # Plot style and color palette
+    sns.set(style="white")
+    palette = {
+        "rna, rna": "#ee82ee",         # violet
+        "rna, protein": "#1f77b4",     # blue
+        "protein, protein": "#2ca02c"  # green 
+    }
+
+    # Generate plots
+    for filename, (method_name, fig_name) in file_info.items():
+        df = df_dict[filename]
+        df = df[df['Pair'].isin(common_pairs)].drop(columns='Pair')
+        df["Type"] = df["Type"].replace({"protein, rna": "rna, protein"})
+
+        cc, _ = pearsonr(df["TM_Score"], df["DockQ_Score"])
+
+        g = sns.JointGrid(data=df, x="TM_Score", y="DockQ_Score", height=7)
+
+        g.plot_joint(
+            sns.scatterplot,
+            data=df,
+            hue="Type",
+            palette=palette,
+            alpha=0.8,
+            s=60
+        )
+
+        ax = g.ax_joint
+        for _, row in df.iterrows():
+            if 0 < row["DockQ_Score"] < 0.23 and row["TM_Score"] > 0.5:
+                ax.annotate(
+                    row["PDB_ID"],
+                    (row["TM_Score"], row["DockQ_Score"]),
+                    xytext=(5, 5),
+                    textcoords='offset points',
+                    fontsize=8,
+                    ha='left',
+                    va='bottom',
+                    color='black'
+                )
+
+        sns.kdeplot(
+            data=df, x="TM_Score", hue="Type",
+            palette=palette, fill=True, alpha=0.4,
+            common_norm=False, ax=g.ax_marg_x, legend=False
+        )
+        sns.kdeplot(
+            data=df, y="DockQ_Score", hue="Type",
+            palette=palette, fill=True, alpha=0.4,
+            common_norm=False, ax=g.ax_marg_y, legend=False
+        )
+
+        g.ax_joint.plot([0, 1], [0, 1], linestyle='--', color='red', linewidth=1)
+        g.ax_joint.text(
+            0.05, 0.95,
+            f"Cc: {cc:.2f}",
+            transform=g.ax_joint.transAxes,
+            fontsize=12,
+            verticalalignment='top'
+        )
+
+        g.set_axis_labels("TM-Score", "DockQ", fontsize=13)
+        g.figure.suptitle(f"TM-Score vs DockQ: {method_name}", fontsize=14)
+        g.figure.subplots_adjust(top=0.95)
+        g.ax_joint.legend(title="Type", loc="best")
+
+        output_path = os.path.join(output_dir, fig_name)
+        g.figure.savefig(output_path, dpi=300)
+        plt.close(g.figure)

@@ -1,4 +1,4 @@
-from benchmark_analysis import plot_tm_scores, plot_success_rates, compare_to_boltz, plot_tm_chains, rna_length_scatter, plot_tm_dockq_complexes, plot_tm_dockq_scatter, interface_violinplots, tm_score_table, tm_and_dockq_tables, ranks_af3_single, ranks_rf2na_single, ranks_boltz_single, ranks_hf3_single, ranks_af3_complexes, ranks_hf3_complexes, ranks_boltz_complexes, ranks_rf2na_complexes, iptm_vs_dockq, ptm_vs_tm, training_dependence_violin_single, training_dependence_scatter_single, training_dependence_violin_complexes, training_dependence_scatter_complexes
+from benchmark_analysis import plot_tm_scores, plot_success_rates, compare_to_boltz, plot_tm_chains, rna_length_scatter, plot_tm_dockq_complexes, plot_tm_dockq_scatter, interface_violinplots, tm_score_table, tm_and_dockq_tables, ranks_af3_single, ranks_rf2na_single, ranks_boltz_single, ranks_hf3_single, ranks_af3_complexes, ranks_hf3_complexes, ranks_boltz_complexes, ranks_rf2na_complexes, iptm_vs_dockq, ptm_vs_tm, training_dependence_violin_single, training_dependence_scatter_single, training_dependence_violin_complexes, training_dependence_scatter_complexes, tm_dockq_correlation_plot
 
 input_dir= "../OUTPUTS/scores-single"
 output_dir= "../OUTPUTS/figures"
@@ -166,5 +166,11 @@ training_dependence_violin_complexes(
 training_dependence_scatter_complexes(
     input_dir=tm_complexes,
     similarity_dir=similarity_dir,
+    output_dir=output_dir
+)
+
+# Figure S9-A,B,C,D
+tm_dockq_correlation_plot(
+    input_dir=tm_complexes,
     output_dir=output_dir
 )
