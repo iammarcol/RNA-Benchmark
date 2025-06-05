@@ -2,6 +2,8 @@
 
 This repository contains resources and information for the RNA Benchmark Project, which evaluates the performance of various computational models in predicting RNA structures, including single RNA, RNA/RNA and RNA/Protein structures. Below, you'll find details about the dataset, selection criteria, and included models.
 
+![Alt text](ga.png)
+
 ## Dataset
 
 The benchmark dataset was derived from the Protein Data Bank (PDB) with a cutoff date of September 30, 2021. This date aligns with the latest data used for training the AlphaFold 3 and most models. The dataset includes RNA structures that meet specific criteria to ensure consistency and quality:
