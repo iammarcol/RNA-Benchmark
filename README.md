@@ -50,7 +50,8 @@ RNA-Benchmark/
 │   ├── complex.zip               # pdb files of predicted complexes
 │   ├── single.zip       # pdb files of predicted single-chain RNAs
 ├── MSA/
-│   ├── msa.zip                  # MSAs used to generate structures for both single RNA and complexes
+│   ├── complex.zip               # MSAs used to generate structures for both single RNA and complexes
+│   ├── single.zip     
 ├── OUTPUTS/                      # all CSV files of benchmarked data and scores, as well as Figures from the paper
 ├── scr/                          # code to generate all figures and other
 ├── meta.csv                      # information about sequences/structures used in the final analysis
