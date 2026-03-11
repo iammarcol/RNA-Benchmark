@@ -1,0 +1,5 @@
+Type_whole,AF3,Boltz-1,HF3
+"rna, rna",0.246,0.247,0.308
+"rna, protein",0.585,0.523,0.362
+"rna, dna",0.41,0.399,0.585
+"rna, protein, dna",0.645,0.625,0.164
