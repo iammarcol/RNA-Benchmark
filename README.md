@@ -31,11 +31,13 @@ The benchmark evaluates the performance of the following **eight** computational
 5) RhoFold+
 6) NuFold
 7) Chai
-8) Boltz
+8) Boltz-1
+9) DeepFoldRNA
+10) DRfold
 
 HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (NuFold, RhoFold+, trRosetta), while others are able to predict both monomeric and oligomeric RNAs, alone and in a complex with proteins.
 
-❗Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out-of-memory" issues, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. This, along with filtering step resulted in a dataset comprising 86 single-chain RNA and 158 RNA complexes.
+❗Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out-of-memory" issues, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. This, along with filtering step resulted in a dataset comprising 79 single-chain RNA and 158 RNA complexes.
 
 ❗Note that we cannot distribute ground turth structures from CASP16 targets used in the analysis. All solved structures will be available at a certain time at https://predictioncenter.org/casp16/targetlist.cgi
 
