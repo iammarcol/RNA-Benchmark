@@ -1,12 +1,12 @@
 # RNA-Benchmark
 
-This repository contains resources and information for the RNA Benchmark Project, which evaluates the performance of various computational models in predicting RNA structures, including single RNA, RNA/RNA and RNA/Protein structures. Below, you'll find details about the dataset, selection criteria, and included models.
+This repository contains resources and information for the RNA Benchmark Project, which evaluates the performance of various computational models in predicting RNA structures, including monomeric RNA, RNA/RNA and RNA/Protein structures. Below, you'll find details about the dataset, selection criteria, and included models.
 
 ![Alt text](ga.png)
 
 ## Dataset
 
-The benchmark dataset was derived from the Protein Data Bank (PDB) with a cutoff date of September 30, 2021. This date aligns with the latest data used for training the AlphaFold 3 and most models. The dataset includes RNA structures that meet specific criteria to ensure consistency and quality:
+The benchmark dataset was derived from the Protein Data Bank (PDB) with a cutoff of September 30, 2021 (for RNA complexes) and February 28, 2022 (for monomeric RNAs), which correspond to the latest training set date cutoff of the benchmarked methods. The dataset includes RNA structures that meet specific criteria to ensure consistency and quality:
 
 **Sequence Identity Filtering:**  
 
@@ -35,7 +35,7 @@ The benchmark evaluates the performance of the following **eight** computational
 9) DeepFoldRNA
 10) DRfold
 
-HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for single RNA inference (NuFold, RhoFold+, trRosetta), while others are able to predict both monomeric and oligomeric RNAs, alone and in a complex with proteins.
+HelixFold 3, Boltz, Chai and DRFold are derived from AlphaFold 3 and considered AlphaFold-Based Models, while RhoFold+ and similar models leverage large language models (LLMs) for structure prediction (LLM-Based Models). Many models allow only for monomeric RNA inference (NuFold, RhoFold+, trRosetta), while others are able to predict both monomeric and oligomeric RNAs, alone and in a complex with proteins.
 
 ❗Chai was excluded from the RNA complex analysis, as its inference is currently limited to a maximum of 2048 tokens, and excluding RNA complexes with >2048 tokens would further reduce the size of our comparable PDB data. Boltz failed to predict copmlexes consisting of 5+ protein+RNA subunits due to "out-of-memory" issues, even after the update to a newer 0.4.0 version. Therefore, such complexes were not used in our analysis of benchmark data. This, along with filtering step resulted in a dataset comprising 79 single-chain RNA and 158 RNA complexes.
 
